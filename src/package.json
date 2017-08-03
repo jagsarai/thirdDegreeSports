@@ -1,5 +1,5 @@
 {
-  "name": "skill-sample-js-trivia",
+  "name": "third degree",
   "version": "1.0.0",
   "description": "A simple trivia skill i18n version.",
   "main": "index.js",
@@ -14,6 +14,6 @@
   "author": "Amazon.com",
   "license": "Apache-2.0",
   "dependencies": {
-    "alexa-sdk": "^1.0.6"
+    "alexa-sdk": "^1.0.11"
   }
 }

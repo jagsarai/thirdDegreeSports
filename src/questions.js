@@ -1,755 +1,413 @@
 'use strict';
 
-module.exports = {
+
+module.exports ={
     /**
      * When editing your questions pay attention to your punctuation. Make sure you use question marks or periods.
      * Make sure the first answer is the correct one. Set at least ANSWER_COUNT answers, any extras will be shuffled in.
      */
-    "QUESTIONS_EN_GB" : [
-        {
-            "Reindeer have very thick coats, how many hairs per square inch do they have?": [
-                "13,000",
-                "1,200",
-                "5,000",
-                "700",
-                "1,000",
-                "120,000"
-            ]
-        },
-        {
-            "The 1964 classic Rudolph The Red Nosed Reindeer was filmed in. ": [
-                "Japan",
-                "United States",
-                "Finland",
-                "Germany",
-                "Canada",
-                "Norway",
-                "France"
-            ]
-        },
-        {
-            "Santas reindeer are cared for by one of the Christmas elves, what is his name?": [
-                "Wunorse Openslae",
-                "Alabaster Snowball",
-                "Bushy Evergreen",
-                "Pepper Minstix"
-            ]
-        },
-        {
-            "If all of Santas reindeer had antlers while pulling his Christmas sleigh, they would all be. ": [
-                "Girls",
-                "Boys",
-                "Girls and boys",
-                "No way to tell"
-            ]
-        },
-        {
-            "What do Reindeer eat?": [
-                "Lichen",
-                "Grasses",
-                "Leaves",
-                "Berries"
-            ]
-        },
-        {
-            "What of the following is not true?": [
-                "Caribou live on all continents",
-                "Both reindeer and Caribou are the same species",
-                "Caribou are bigger than reindeer",
-                "Reindeer live in Scandinavia and Russia"
-            ]
-        },
-        {
-            "In what year did Rudolph make his television debut?": [
-                "1964",
-                "1979",
-                "2000",
-                "1956"
-            ]
-        },
-        {
-            "Who was the voice of Rudolph in the 1964 classic?": [
-                "Billie Mae Richards",
-                "Burl Ives",
-                "Paul Soles",
-                "Lady Gaga"
-            ]
-        },
-        {
-            "In 1939 what retailer used the story of Rudolph the Red Nose Reindeer?": [
-                "Montgomery Ward",
-                "Sears",
-                "Macys",
-                "Kmart"
-            ]
-        },
-        {
-            "Santa\'s reindeer named Donner was originally named what?": [
-                "Dunder",
-                "Donny",
-                "Dweedle",
-                "Dreamy"
-            ]
-        },
-        {
-            "Who invented the story of Rudolph?": [
-                "Robert May",
-                "Johnny Marks",
-                "Santa",
-                "J.K. Rowling"
-            ]
-        },
-        {
-            "In what location will you not find reindeer?": [
-                "North Pole",
-                "Lapland",
-                "Korvatunturi mountain",
-                "Finland"
-            ]
-        },
-        {
-            "What Makes Santa\'s Reindeer Fly?": [
-                "Magical Reindeer Dust",
-                "Fusion",
-                "Amanita muscaria",
-                "Elves"
-            ]
-        },
-        {
-            "Including Rudolph, how many reindeer hooves are there?": [
-                "36",
-                "24",
-                "16",
-                "8"
-            ]
-        },
-        {
-            "Santa only has one female reindeer. Which one is it?": [
-                "Vixen",
-                "Clarice",
-                "Cupid",
-                "Cupid"
-            ]
-        },
-        {
-            "In the 1964 classic Rudolph The Red Nosed Reindeer, what was the snowman narrators name?": [
-                "Sam",
-                "Frosty",
-                "Burl",
-                "Snowy"
-            ]
-        },
-        {
-            "What was Rudolph\'s father\'s name?": [
-                "Donner",
-                "Dasher",
-                "Blixen",
-                "Comet"
-            ]
-        },
-        {
-            "In the 1964 movie, What was the name of the coach of the Reindeer Games?": [
-                "Comet",
-                "Blixen",
-                "Donner",
-                "Dasher"
-            ]
-        },
-        {
-            "In the 1964 movie, what is the name of the deer that Rudolph befriends at the reindeer games?": [
-                "Fireball",
-                "Clarice",
-                "Jumper",
-                "Vixen"
-            ]
-        },
-        {
-            "In the 1964 movie, How did Donner, Rudolph\'s father, try to hide Rudolph\'s nose?": [
-                "Black mud",
-                "Bag",
-                "Pillow case",
-                "Sock"
-            ]
-        },
-        {
-            "In the 1964 movie, what does the Misfit Elf want to be instead of a Santa Elf?": [
-                "Dentist",
-                "Reindeer",
-                "Toy maker",
-                "Candlestick maker"
-            ]
-        },
-        {
-            "In the 1964 movie,what was the Bumble\'s one weakness?": [
-                "Could not swim",
-                "Always hungry",
-                "Candy canes",
-                "Cross eyed"
-            ]
-        },
-        {
-            "In the 1964 movie, what is Yukon Cornelius really in search of?": [
-                "Peppermint",
-                "Gold",
-                "India",
-                "Polar Bears"
-            ]
-        },
-        {
-            "In the 1964 movie, why is the train on the Island of Misfit Toys?": [
-                "Square wheels",
-                "No Engine",
-                "Paint does not match",
-                "It does not toot"
-            ]
-        },
-        {
-            "In the 1964 movie, what is the name of the Jack in the Box?": [
-                "Charlie",
-                "Sam",
-                "Billy",
-                "Jack"
-            ]
-        },
-        {
-            "In the 1964 movie, why did Santa Claus almost cancel Christmas?": [
-                "Storm",
-                "No snow",
-                "No toys",
-                "The Reindeer were sick"
-            ]
-        },
-        {
-            "In the 1964 movie, what animal noise did the elf make to distract the Bumble?": [
-                "Oink",
-                "Growl",
-                "Bark",
-                "Meow"
-            ]
-        },
-        {
-            "In the 1964 movie, what is the name of the prospector?": [
-                "Yukon Cornelius",
-                "Slider Sam",
-                "Bumble",
-                "Jack"
-            ]
-        },
-        {
-            "How far do reindeer travel when they migrate?": [
-                "3000 miles",
-                "700 miles",
-                "500 miles",
-                "0 miles"
-            ]
-        },
-        {
-            "How fast can a reindeer run?": [
-                "48 miles per hour",
-                "17 miles per hour",
-                "19 miles per hour",
-                "14 miles per hour",
-                "52 miles per hour",
-                "41 miles per hour"
-            ]
-        }
-    ],
+
+
     "QUESTIONS_EN_US" : [
-        {
-            "Reindeer have very thick coats, how many hairs per square inch do they have?": [
-                "13,000",
-                "1,200",
-                "5,000",
-                "700",
-                "1,000",
-                "120,000"
-            ]
-        },
-        {
-            "The 1964 classic Rudolph The Red Nosed Reindeer was filmed in. ": [
-                "Japan",
-                "United States",
-                "Finland",
-                "Germany",
-                "Canada",
-                "Norway",
-                "France"
-            ]
-        },
-        {
-            "Santas reindeer are cared for by one of the Christmas elves, what is his name?": [
-                "Wunorse Openslae",
-                "Alabaster Snowball",
-                "Bushy Evergreen",
-                "Pepper Minstix"
-            ]
-        },
-        {
-            "If all of Santas reindeer had antlers while pulling his Christmas sleigh, they would all be": [
-                "Girls",
-                "Boys",
-                "Girls and boys",
-                "No way to tell"
-            ]
-        },
-        {
-            "What do Reindeer eat?": [
-                "Lichen",
-                "Grasses",
-                "Leaves",
-                "Berries"
-            ]
-        },
-        {
-            "What of the following is not true?": [
-                "Caribou live on all continents",
-                "Both reindeer and Caribou are the same species",
-                "Caribou are bigger than reindeer",
-                "Reindeer live in Scandinavia and Russia"
-            ]
-        },
-        {
-            "In what year did Rudolph make his television debut?": [
-                "1964",
-                "1979",
-                "2000",
-                "1956"
-            ]
-        },
-        {
-            "Who was the voice of Rudolph in the 1964 classic?": [
-                "Billie Mae Richards",
-                "Burl Ives",
-                "Paul Soles",
-                "Lady Gaga"
-            ]
-        },
-        {
-            "In 1939 what retailer used the story of Rudolph the Red Nose Reindeer?": [
-                "Montgomery Ward",
-                "Sears",
-                "Macys",
-                "Kmart"
-            ]
-        },
-        {
-            "Santa\'s reindeer named Donner was originally named what?": [
-                "Dunder",
-                "Donny",
-                "Dweedle",
-                "Dreamy"
-            ]
-        },
-        {
-            "Who invented the story of Rudolph?": [
-                "Robert May",
-                "Johnny Marks",
-                "Santa",
-                "J.K. Rowling"
-            ]
-        },
-        {
-            "In what location will you not find reindeer?": [
-                "North Pole",
-                "Lapland",
-                "Korvatunturi mountain",
-                "Finland"
-            ]
-        },
-        {
-            "What Makes Santa\'s Reindeer Fly?": [
-                "Magical Reindeer Dust",
-                "Fusion",
-                "Amanita muscaria",
-                "Elves"
-            ]
-        },
-        {
-            "Including Rudolph, how many reindeer hooves are there?": [
-                "36",
-                "24",
-                "16",
-                "8"
-            ]
-        },
-        {
-            "Santa only has one female reindeer. Which one is it?": [
-                "Vixen",
-                "Clarice",
-                "Cupid",
-                "Cupid"
-            ]
-        },
-        {
-            "In the 1964 classic Rudolph The Red Nosed Reindeer, what was the snowman narrators name?": [
-                "Sam",
-                "Frosty",
-                "Burl",
-                "Snowy"
-            ]
-        },
-        {
-            "What was Rudolph\'s father\'s name?": [
-                "Donner",
-                "Dasher",
-                "Blixen",
-                "Comet"
-            ]
-        },
-        {
-            "In the 1964 movie, What was the name of the coach of the Reindeer Games?": [
-                "Comet",
-                "Blixen",
-                "Donner",
-                "Dasher"
-            ]
-        },
-        {
-            "In the 1964 movie, what is the name of the deer that Rudolph befriends at the reindeer games?": [
-                "Fireball",
-                "Clarice",
-                "Jumper",
-                "Vixen"
-            ]
-        },
-        {
-            "In the 1964 movie, How did Donner, Rudolph\'s father, try to hide Rudolph\'s nose?": [
-                "Black mud",
-                "Bag",
-                "Pillow case",
-                "Sock"
-            ]
-        },
-        {
-            "In the 1964 movie, what does the Misfit Elf want to be instead of a Santa Elf?": [
-                "Dentist",
-                "Reindeer",
-                "Toy maker",
-                "Candlestick maker"
-            ]
-        },
-        {
-            "In the 1964 movie,what was the Bumble\'s one weakness?": [
-                "Could not swim",
-                "Always hungry",
-                "Candy canes",
-                "Cross eyed"
-            ]
-        },
-        {
-            "In the 1964 movie, what is Yukon Cornelius really in search of?": [
-                "Peppermint",
-                "Gold",
-                "India",
-                "Polar Bears"
-            ]
-        },
-        {
-            "In the 1964 movie, why is the train on the Island of Misfit Toys?": [
-                "Square wheels",
-                "No Engine",
-                "Paint does not match",
-                "It does not toot"
-            ]
-        },
-        {
-            "In the 1964 movie, what is the name of the Jack in the Box?": [
-                "Charlie",
-                "Sam",
-                "Billy",
-                "Jack"
-            ]
-        },
-        {
-            "In the 1964 movie, why did Santa Claus almost cancel Christmas?": [
-                "Storm",
-                "No snow",
-                "No toys",
-                "The Reindeer were sick"
-            ]
-        },
-        {
-            "In the 1964 movie, what animal noise did the elf make to distract the Bumble?": [
-                "Oink",
-                "Growl",
-                "Bark",
-                "Meow"
-            ]
-        },
-        {
-            "In the 1964 movie, what is the name of the prospector?": [
-                "Yukon Cornelius",
-                "Slider Sam",
-                "Bumble",
-                "Jack"
-            ]
-        },
-        {
-            "How far do reindeer travel when they migrate?": [
-                "3000 miles",
-                "700 miles",
-                "500 miles",
-                "0 miles"
-            ]
-        },
-        {
-            "How fast can a reindeer run?": [
-                "48 miles per hour",
-                "17 miles per hour",
-                "19 miles per hour",
-                "14 miles per hour",
-                "52 miles per hour",
-                "41 miles per hour"
-            ]
-        }
-    ],
-    "QUESTIONS_DE_DE" : [
-        {
-            "Rentiere haben ein sehr dickes Fell. Wie viele Haare pro Quadratzentimeter haben sie?": [
-                "13,000",
-                "1,200",
-                "5,000",
-                "700",
-                "1,000",
-                "120,000"
-            ]
-        },
-        {
-            "Der Klassiker aus dem Jahr 1964, Rudolph mit der roten Nase, wurde gedreht in. ": [
-                "Japan",
-                "USA",
-                "Finnland",
-                "Deutschland",
-                "Kanada",
-                "Norwegen",
-                "Frankreich"
-            ]
-        },
-        {
-            "Um die Rentiere des Weihnachtsmanns kümmert sich eine der Weihnachtselfen. Wie heißt sie?": [
-                "Wunorse Openslae",
-                "Alabaster Snowball",
-                "Bushy Evergreen",
-                "Pfeffer Minstix"
-            ]
-        },
-        {
-            "Wenn alle Rentiere des Weihnachtsmanns Geweihe hätten, während sie seinen Weihnachtsschlitten ziehen, wären sie alle. ": [
-                "Weiblich",
-                "Männlich",
-                "Weiblich und männlich",
-                "Kann man nicht sagen"
-            ]
-        },
-        {
-            "Was essen Rentiere?": [
-                "Flechten",
-                "Gras",
-                "Blätter",
-                "Beeren"
-            ]
-        },
-        {
-            "Welche Aussage ist nicht richtig?": [
-                "Karibus leben auf allen Kontinenten",
-                "Karibus und Rentiere gehören derselben Gattung an ",
-                "Karibus sind größer als Rentiere",
-                "Rentiere leben in Skandinavien und Russland"
-            ]
-        },
-        {
-            "In welchem Jahr kam Rudolph ins Fernsehen?": [
-                "1964",
-                "1979",
-                "2000",
-                "1956"
-            ]
-        },
-        {
-            "Wer war der Sprecher für Rudolph im klassischen Film aus dem Jahr 1964?": [
-                "Billie Mae Richards",
-                "Burl Ives",
-                "Paul Soles",
-                "Lady Gaga"
-            ]
-        },
-        {
-            "Welche Handelskette verwendete 1939 die Geschichte von Rudolph mit der roten Nase?": [
-                "Montgomery Ward",
-                "Sears",
-                "Macys",
-                "Kmart"
-            ]
-        },
-        {
-            "Wie hieß das Rentier des Weihnachtsmanns namens Donner ursprünglich?": [
-                "Dunder",
-                "Donny",
-                "Dweedle",
-                "Dreamy"
-            ]
-        },
-        {
-            "Wer hat die Geschichte von Rudolph erfunden?": [
-                "Robert May",
-                "Johnny Marks",
-                "Santa",
-                "J.K. Rowling"
-            ]
-        },
-        {
-            "Wo findest du keine Rentiere?": [
-                "Nordpol",
-                "Lappland",
-                "Korvatunturi-Berge",
-                "Finnland"
-            ]
-        },
-        {
-            "Warum können die Rentiere des Weihnachtsmanns fliegen?": [
-                "Magischer Staub der Rentiere",
-                "Fusion",
-                "Amanita muscaria",
-                "Elfen"
-            ]
-        },
-        {
-            "Wieviele Rentierhufe gibt es hier einschließlich Rudolph?": [
-                "36",
-                "24",
-                "16",
-                "8"
-            ]
-        },
-        {
-            "Der Weihnachtsmann hat nur ein weibliches Rentier. Wie heißt es?": [
-                "Blitzen",
-                "Clarice",
-                "Cupid",
-                "Cupid"
-            ]
-        },
-        {
-            "Wie war der Name des erzählenden Schneemanns im klassischen Film Rudolph mit der roten Nase aus dem Jahr 1964?": [
-                "Sam",
-                "Frosty",
-                "Burl",
-                "Snowy"
-            ]
-        },
-        {
-            "Wie hieß der Vater von Rudolph?": [
-                "Donner",
-                "Dasher",
-                "Blixen",
-                "Comet"
-            ]
-        },
-        {
-            "Wie war der Name des Trainers der Rentierspiele im klassischen Film aus dem Jahr 1964?": [
-                "Comet",
-                "Blixen",
-                "Donner",
-                "Dasher"
-            ]
-        },
-        {
-            "Wie war im klassichen Film aus 1964 der Name des Hirsches, mit dem sich Rudolph befreundete?": [
-                "Fireball",
-                "Clarice",
-                "Jumper",
-                "Vixen"
-            ]
-        },
-        {
-            "Wie hat der Vater von Rudolph, Donner, im Film aus dem Jahr 1964 versucht, die Nase von Rudolph zu verbergen?": [
-                "Schwarzer Schlamm",
-                "Sack",
-                "Kissenbezug",
-                "Socke"
-            ]
-        },
-        {
-            "Was möchte die Misfit-Elfe im Film aus dem Jahr 1964 werden anstatt eine Elfe für den Weihnachtsmann?": [
-                "Zahnarzt",
-                "Rentier",
-                "Spielzeugmacher",
-                "Kerzenmacher"
-            ]
-        },
-        {
-            "Was war die einzige Schwäche von Bumble im Film aus dem Jahr 1964?": [
-                "Konnte nicht schwimmen",
-                "War immer hungrig",
-                "Zuckerstangen",
-                "Schielte"
-            ]
-        },
-        {
-            "Was sucht Yukon Cornelius in Wirklichkeit im Film aus dem Jahr 1964?": [
-                "Pfefferminz",
-                "Gold",
-                "Indien",
-                "Polarbären"
-            ]
-        },
-        {
-            "Warum befindet sich der Zug im Film aus dem Jahr 1964 auf der Insel des fehlerhaften Spielzeugs?": [
-                "Viereckige Räder",
-                "Keine Dampfmaschine",
-                "Farbe stimmt nicht",
-                "Pfeift nicht"
-            ]
-        },
-        {
-            "Wie lautet der Name des Schachtelmännchens im Film aus dem Jahr 1964?": [
-                "Charlie",
-                "Sam",
-                "Billy",
-                "Jack"
-            ]
-        },
-        {
-            "Warum hat der Weihnachtsmann im Film aus dem Jahr 1964 Weihnachten beinahe abgesagt?": [
-                "Sturm",
-                "Kein Schnee",
-                "Kein Spielzeug",
-                "Die Rentiere waren krank"
-            ]
-        },
-        {
-            "Welches tierische Geräusch machte die Elfe im Film aus dem Jahr 1964, um den Bumble abzulenken?": [
-                "Oink",
-                "Knurr",
-                "Wauwau",
-                "Miau"
-            ]
-        },
-        {
-            "Wie lautet der Name des Goldsuchers im Film aus dem Jahr 1964?": [
-                "Yukon Cornelius",
-                "Slider Sam",
-                "Bumble",
-                "Jack"
-            ]
-        },
-        {
-            "Wie weit ziehen Rentiere auf ihren Wanderungen?": [
-                "4800 km",
-                "1100 km",
-                "800 km",
-                "0 km"
-            ]
-        },
-        {
-            "Wie schnell läuft ein Rentier?": [
-                "77 km pro Stunde",
-                "27 km pro Stunde",
-                "30 km pro Stunde",
-                "22 km pro Stunde",
-                "83 km pro Stunde",
-                "65 km pro Stunde"
-            ]
-        }
-    ]
-};
+    {
+      "In Baseball, how many times does the ball have to be pitched outside of the strike zone before the batter is walked?": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ]
+    },
+    {
+      "Who won the 2016 Formula 1 World Driver&#039;s Championship?": [
+        "Nico Rosberg",
+        "Lewis Hamilton",
+        "Max Verstappen",
+        "Kimi Raikkonen"
+      ]
+    },
+    {
+      "In 2016, who won the Formula 1 World Constructor&#039;s Championship for the third time in a row?": [
+        "Mercedes-AMG Petronas",
+        "Scuderia Ferrari",
+        "McLaren Honda",
+        "Red Bull Racing Renault"
+      ]
+    },
+    {
+      "Which city did the former NHL team &quot;The Nordiques&quot; originiate from?": [
+        "Quebec City",
+        "Houston",
+        "Montreal",
+        "New York"
+      ]
+    },
+    {
+      "What team won the 2016 MLS Cup?": [
+        "Seattle Sounders",
+        "Colorado Rapids",
+        "Toronto FC",
+        "Montreal Impact"
+      ]
+    },
+    {
+      "What is the oldest team in Major League Baseball?": [
+        "Atlanta Braves",
+        "Chicago Cubs",
+        "Cincinnati Reds",
+        "St. Louis Cardinals"
+      ]
+    },
+    {
+      "In Formula 1, the Virtual Safety Car was introduced following the fatal crash of which driver?": [
+        "Jules Bianchi",
+        "Ayrton Senna",
+        "Ronald Ratzenberger",
+        "Gilles Villeneuve"
+      ]
+    },
+    {
+      "Which of the following Grand Slam tennis tournaments occurs LAST?": [
+        "US Open",
+        "French Open",
+        "Wimbledon",
+        "Australian Open"
+      ]
+    },
+    {
+      "What year did the New Orleans Saints win the Super Bowl?": [
+        "2009",
+        "2008",
+        "2010",
+        "2011"
+      ]
+    },
+    {
+      "This Canadian television sportscaster is known for his &quot;Hockey Night in Canada&quot; role, a commentary show during hockey games.": [
+        "Don Cherry",
+        "Don McKellar",
+        "Don Taylor ",
+        "Donald Sutherland"
+      ]
+    },
+    {
+      "At which bridge does the annual Oxford and Cambridge boat race start?": [
+        "Putney",
+        "Hammersmith",
+        "Vauxhall ",
+        "Battersea"
+      ]
+    },
+    {
+      "How many times did Martina Navratilova win the Wimbledon Singles Championship?" : [
+        "Nine",
+        "Ten",
+        "Seven",
+        "Eight"
+      ]
+    },
+    {
+      "Which German sportswear company&#039;s logo is the &#039;Formstripe&#039;?": [
+        "Puma",
+        "Nike",
+        "Adidas",
+        "Reebok"
+      ]
+    },
+    {
+      "What tool lends it&#039;s name to a last-stone advantage in an end in Curling?": [
+        "Hammer",
+        "Wrench",
+        "Drill",
+        "Screwdriver"
+      ]
+    },
+    {
+      "In golf, what name is given to a hole score of two under par?": [
+        "Eagle",
+        "Birdie",
+        "Bogey",
+        "Albatross"
+      ]
+    },
+    {
+      "What cricketing term denotes a batsman being dismissed with a score of zero?": [
+        "Duck",
+        "Bye",
+        "Beamer",
+        "Carry"
+      ]
+    },
+    {
+      "Which of these teams isn&#039;t a member of the NHL&#039;s &quot;Original Six&quot; era?": [
+        "Philadelphia Flyers",
+        "New York Rangers",
+        "Toronto Maple Leafs",
+        "Boston Bruins"
+      ]
+    },
+    {
+      "Who was the British professional wrestler Shirley Crabtree better known as?": [
+        "Big Daddy",
+        "Giant Haystacks",
+        "Kendo Nagasaki",
+        "Masambula"
+      ]
+    },
+    {
+      "What is the nickname of Northampton town&#039;s rugby union club?": [
+        "Saints",
+        "Harlequins",
+        "Saracens",
+        "Wasps"
+      ]
+    },
+    {
+      "How many soccer players should be on the field at the same time?": [
+        "22",
+        "20",
+        "24",
+        "26"
+      ]
+    },
+    {
+      "In what sport is a &quot;shuttlecock&quot; used?": [
+        "Badminton",
+        "Table Tennis",
+        "Rugby",
+        "Cricket"
+      ]
+    },
+    {
+      "Which team won the 2015-16 English Premier League?": [
+        "Leicester City",
+        "Liverpool",
+        "Cheslea",
+        "Manchester United"
+      ]
+    },
+    {
+      "How many scoring zones are there on a conventional dart board?": [
+        "82",
+        "62",
+        "42",
+        "102"
+      ]
+    },
+    {
+      "With which doubles partner did John McEnroe have most success?": [
+        "Peter Fleming",
+        "Mark Woodforde",
+        "Michael Stich",
+        "Mary Carillo"
+      ]
+    },
+    {
+      "In baseball, how many fouls are an out?": [
+        "0",
+        "5",
+        "3",
+        "2"
+      ]
+    },
+    {
+      "What is the highest belt you can get in Taekwondo?": [
+        "Black",
+        "White",
+        "Red",
+        "Green"
+      ]
+    },
+    {
+      "The Rio 2016 Summer Olympics held it&#039;s closing ceremony on what date?": [
+        "August 21",
+        "August 23",
+        "August 19",
+        "August 17"
+      ]
+    },
+    {
+      "Which country will host the 2020 Summer Olympics?": [
+        "Japan",
+        "China",
+        "Australia",
+        "Germany"
+      ]
+    },
+    {
+      "Which country is hosting the 2018 FIFA World Cup?": [
+        "Russia",
+        "Germany",
+        "United States",
+        "Saudi Arabia"
+      ]
+    },
+    {
+      "Which country is hosting the 2022 FIFA World Cup?": [
+        "Qatar",
+        "Uganda",
+        "Vietnam",
+        "Bolivia"
+      ]
+    },
+    {
+      "Who won the 2015 Formula 1 World Championship?": [
+        "Lewis Hamilton",
+        "Nico Rosberg",
+        "Sebastian Vettel",
+        "Jenson Button"
+      ]
+    },
+    {
+      "Which driver has been the Formula 1 world champion for a record 7 times?": [
+        "Michael Schumacher",
+        "Ayrton Senna",
+        "Fernando Alonso",
+        "Jim Clark"
+      ]
+    },
+    {
+      "What was the final score of the Germany vs. Brazil 2014 FIFA World Cup match?": [
+        "7 - 1",
+        "0 - 1",
+        "3 - 4",
+        "16 - 0"
+      ]
+    },
+    {
+      "Which team was the 2015-2016 NBA Champions?": [
+        "Cleveland Cavaliers",
+        "Golden State Warriors",
+        "Toronto Raptors",
+        "Oklahoma City Thunders"
+      ]
+    },
+    {
+      "Which team was the 2014-2015 NBA Champions?": [
+        "Golden State Warriors",
+        "Cleveland Cavaliers",
+        "Houston Rockets",
+        "Atlanta Hawks"
+      ]
+    },
+    {
+      "Josh Mansour is part of what NRL team?": [
+        "Penrith Panthers",
+        "Melbourne Storm",
+        "Sydney Roosters",
+        "North Queensland Cowboys"
+      ]
+    },
+    {
+      "Which car company is the only Japanese company which won the 24 Hours of Le Mans?": [
+        "Mazda",
+        "Toyota",
+        "Subaru",
+        "Nissan"
+      ]
+    },
+    {
+      "Which Italian footballer told Neuer where he&#039;s putting his shot and dragging it wide, during the match Italy-Germany, UEFA EURO 2016?": [
+        "Pelle",
+        "Insigne",
+        "Barzagli",
+        "Giaccherini"
+      ]
+    },
+    {
+      "Which team won 2014 FIFA World Cup in Brazil?": [
+        "Germany",
+        "Argentina",
+        "Brazil",
+        "Netherlands"
+      ]
+    },
+    {
+      "Who won the 2016 Formula 1 World Driver&#039;s Championship?": [
+        "Nico Rosberg",
+        "Lewis Hamilton",
+        "Max Verstappen",
+        "Kimi Raikkonen"
+      ]
+    },
+    {
+      "In 2016, who won the Formula 1 World Constructor&#039;s Championship for the third time in a row?": [
+        "Mercedes-AMG Petronas",
+        "Scuderia Ferrari",
+        "McLaren Honda",
+        "Red Bull Racing Renault"
+      ]
+    },
+    {
+      "Which city did the former NHL team &quot;The Nordiques&quot; originiate from?": [
+        "Quebec City",
+        "Houston",
+        "Montreal",
+        "New York"
+      ]
+    },
+    {
+      "What team won the 2016 MLS Cup?": [
+        "Seattle Sounders",
+        "Colorado Rapids",
+        "Toronto FC",
+        "Montreal Impact"
+      ]
+    },
+    {
+      "What is the oldest team in Major League Baseball?": [
+        "Atlanta Braves",
+        "Chicago Cubs",
+        "Cincinnati Reds",
+        "St. Louis Cardinals"
+      ]
+    },
+    {
+      "What year did the New Orleans Saints win the Super Bowl?": [
+        "2009",
+        "2008",
+        "2010",
+        "2011"
+      ]
+    },
+    {
+      "What is the exact length of one non-curved part in Lane 1 of an Olympic Track?": [
+        "84.39m",
+        "100m",
+        "100yd",
+        "109.36yd"
+      ]
+    },
+    {
+      "This Canadian television sportscaster is known for his &quot;Hockey Night in Canada&quot; role, a commentary show during hockey games.": [
+        "Don Cherry",
+        "Don McKellar",
+        "Don Taylor ",
+        "Donald Sutherland"
+      ]
+    },
+    {
+      "Which team has won the most Stanley Cups in the NHL?": [
+        "Montreal Canadians",
+        "Chicago Blackhawks",
+        "Toronto Maple Leafs",
+        "Detroit Red Wings"
+      ]
+    },
+    {
+      "What is the full name of the footballer &quot;Cristiano Ronaldo&quot;?": [
+        "Cristiano Ronaldo dos Santos Aveiro",
+        "Cristiano Ronaldo los Santos Diego",
+        "Cristiano Armando Diego Ronaldo",
+        "Cristiano Luis Armando Ronaldo"
+      ]
+    },
+    {
+      "Who won the &quot;Champions League&quot; in 1999?": [
+        "Manchester United",
+        "Barcelona",
+        "Bayern Munich",
+        "Liverpool"
+      ]
+    }
+  ]
+}
